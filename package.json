@@ -1,0 +1,59 @@
+{
+    "name": "technical_task",
+    "version": "0.1.0",
+    "private": true,
+    "engines": {
+        "node": "18.12.1",
+        "npm": "please-use-yarn"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "prettier": "prettier --write '*/**/*.{ts,tsx,js,jsx,css,scss,json}'"
+    },
+    "dependencies": {
+        "@testing-library/jest-dom": "5.16.4",
+        "@testing-library/react": "13.3.0",
+        "@testing-library/user-event": "13.5.0",
+        "@types/jest": "27.5.2",
+        "@types/node": "16.11.41",
+        "@types/react": "18.0.14",
+        "@types/react-dom": "18.0.5",
+        "axios": "0.27.2",
+        "axios-mock-adapter": "1.20.0",
+        "prettier": "2.3.2",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-scripts": "5.0.1",
+        "typescript": "*"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.58.0",
+        "@typescript-eslint/parser": "^5.58.0",
+        "eslint": "^8.0.1",
+        "eslint-config-standard-with-typescript": "^34.0.1",
+        "eslint-plugin-import": "^2.25.2",
+        "eslint-plugin-n": "^15.0.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "eslint-plugin-react": "^7.32.2"
+    }
+}
