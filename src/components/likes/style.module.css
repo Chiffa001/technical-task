@@ -1,0 +1,23 @@
+.likes {
+    display: flex;
+    height: 23px;
+
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.icon {
+    display: flex;
+    margin-right: 8px;
+}
+
+.likesContainer {
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .likes {
+        font-size: 14px;
+    }
+}

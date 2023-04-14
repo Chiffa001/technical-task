@@ -1,0 +1,64 @@
+.commentItem {
+    margin-top: 32px;
+    color: #ffffff;
+}
+
+.info {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner {
+    margin-left: 34px;
+}
+
+.name {
+    margin: 0;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.senderInfo {
+    margin: 12.5px 0 12.5px 20px;
+}
+
+.message {
+    margin-left: 20px;
+
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.time {
+    color: #8297ab;
+
+    font-size: 16px;
+    line-height: 19px;
+}
+
+@media (max-width: 767px) {
+    .time,
+    .message,
+    .name {
+        font-size: 14px;
+    }
+
+    .commentItem {
+        margin-top: 24px;
+    }
+
+    .inner {
+        margin-left: 10px;
+    }
+
+    .senderInfo {
+        margin: 2.5px 0 9.5px 10px;
+    }
+
+    .message {
+        margin-left: 10px;
+        word-break: break-all;
+    }
+}

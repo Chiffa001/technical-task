@@ -1,0 +1,19 @@
+:root {
+    --heart: #d44f4f;
+    --disabled-heart: #8297ab;
+}
+
+.heart {
+    fill: none;
+    stroke: var(--heart);
+}
+
+.activeHeart {
+    fill: var(--heart);
+    stroke: var(--heart);
+}
+
+.disabledHeart {
+    fill: none;
+    stroke: var(--disabled-heart);
+}
